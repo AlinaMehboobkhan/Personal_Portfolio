@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name=" viewport" content="width=device-width, intial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel=" stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+            </nav>
+            <div class="header-text"> 
+                <p>Software Engineering Student</p>
+                <h1>Hi, I'm <span>Alina</span><br>khan from Pakistan </h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="images/pic.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a passionate software engineering student with a strong 
+                       foundation in programming languages,data structures & algorithms,
+                       database management systems (SQL) and SDLC. My fascination with 
+                       technology fuels my drive to solve complex problems through 
+                       innovative software solutions. I led many projects during my studies
+                       which have enhanced my leadership skills.Beyond technical expertise,
+                       I possess a keen interest in requirements development and management.
+                       Furthermore, I excel in communication, fostering collaboration with 
+                       teammates and stakeholders. As I actively seek to apply my skills and 
+                       enthusiasm, I am eager to secure an internship position within your 
+                       esteemed company. My active participation as a student volunteer and 
+                       councilor has nurtured my communication and leadership skills. </p>
+                       <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links " onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links "onclick="opentab('education')">EDUCATION</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DBMS</span><br>Create Database</li>
+                            <li><span>DSA </span><br>Develop Projects</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Programming Languages</span><br>C++,SQL,Javascript,Html,css</li>
+                            <li><span>Requirement Development</span><br>Develop requirements from customer</li>
+                            <li><span>Communication Skills</span><br>Communicate with clients and collegues</li>
+                            <li><span>Leadership Skills</span><br>Lead many teams in school, college and unversity</li>
+                            <li><span>Critical Thinking</span><br>Understanding the problem deeply</li>
+                            <li><span>Graphic Desinging</span><br>Design by using canva</li>
+
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July,2024 - Current</span><br>Intern at Starlet</li>
+                            <li><span>1 Aug,2024- 30 Aug,2024 </span><br>Frontened Developer Intern at CodeAlpha</li>
+                            <li><span>1 Aug,2024- 30 Aug,2024 </span><br>C++ Programmer Intern at CodeAlpha</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>BS(SE) From University of Management and Technology</li>
+                        </ul>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------services------------------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Web Design</h2>
+                <p>Design many websites by using css, Html,Javascript
+                   that are reactive and responsive</p>
+                   <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Graphic Desinging</h2>
+                <p>By using canva create beautiful and creative designs. 
+                   Also used it in content creation.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>C++ Programming</h2>
+                <p>Develop browsers and build software</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+ </div>
+ <!-- ------------portfolio------------------- -->
+ <div id="portfolio">
+ <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work1.jpg">
+            <div class="layer">
+            <h3>Image Gallery</h3>
+            <p>I have develop a responsive image gallery by using html, css, javascript.
+                Get the source code from my Github Repository.
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+        <div class="work">
+            <img src="images/work 3.jpg">
+            <div class="layer">
+            <h3>Modern Calculator</h3>
+            <p>I have develop a modern calculator that perform simple airthemetic operations by using html, css, javascript.
+                Get the source code from my Github Repository.
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+        <div class="work">
+            <img src="images/work2.jpg">
+            <div class="layer">
+            <h3>Code for Hospital Management System</h3>
+            <p>Write C++ Code for Hospital Management System.
+                Get the source code from my Github Repository.
+            </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+ </div>
+ </div>
+ <!-- ----------------------contact----------------------- -->
+ <div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>Gmail:<br>alinabakhtiari199@gmail.com</p>
+            <p>Number:<br>03006840084</p>
+            <a href="images/alina CV1.docx" download class="btn btn2">DOWNLOAD CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+       </div>
+    </div>
+    <div class="copyright">
+        <p>Made By ALINA(For copyright purpose)</p>
+    </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    </body>  
+</html>
